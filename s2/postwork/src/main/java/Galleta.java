@@ -1,11 +1,11 @@
 
-public class Galleta implements Helado {
+public class CoberturaGalleta implements Helado {
 
 
     private Helado helado;
 
 
-    public Galleta(Helado helado) {
+    public CoberturaGalleta(Helado helado) {
         this.helado = helado;
     }
 
