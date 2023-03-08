@@ -2,7 +2,7 @@ public class HeladoSuave implements Helado {
 
 
   @Override
-  public String getDescripcion() {
+  public String getIngredientes() {
     return "Helado Suave";
   }
 

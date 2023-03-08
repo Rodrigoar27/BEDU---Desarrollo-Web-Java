@@ -1,17 +1,16 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '2.7.10-SNAPSHOT'
+	id 'org.springframework.boot' version '2.7.9'
 	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
-group = 'org.bedu.java.backen'
+group = 'org.bedu.java.backend'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+sourceCompatibility = '1.8'
+
 
 repositories {
 	mavenCentral()
-	maven { url 'https://repo.spring.io/milestone' }
-	maven { url 'https://repo.spring.io/snapshot' }
 }
 
 dependencies {

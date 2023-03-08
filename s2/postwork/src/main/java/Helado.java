@@ -1,4 +1,4 @@
 public interface Helado {
-    public String getDescripcion();
+    public String getIngredientes();
     public int getPrecio();
 }

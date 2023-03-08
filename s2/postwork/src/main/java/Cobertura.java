@@ -1,8 +1,6 @@
 public class Cobertura implements Helado {
 
-
     private Helado helado;
-
 
     public Cobertura(Helado helado) {
         this.helado = helado;
@@ -10,8 +8,8 @@ public class Cobertura implements Helado {
 
 
     @Override
-    public String getDescripcion() {
-        return helado.getDescripcion() + ", con Cobertura extra";
+    public String String getIngredientes() {
+        return helado.getIngredientes() + ", con Cobertura extra";
     }
 
 

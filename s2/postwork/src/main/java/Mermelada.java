@@ -11,8 +11,8 @@ public class Mermelada implements Helado {
 
 
     @Override
-    public String getDescripcion() {
-        return helado.getDescripcion() + ", con Mermelada extra";
+    public String getIngredientes() {
+        return helado.getIngredientes() + ", con Mermelada extra";
     }
 
 
