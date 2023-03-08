@@ -1,8 +1,8 @@
-public class Cobertura implements Helado {
+public class CoberturaDecorator implements Helado {
 
     private Helado helado;
 
-    public Cobertura(Helado helado) {
+    public CoberturaDecorator(Helado helado) {
         this.helado = helado;
     }
 
