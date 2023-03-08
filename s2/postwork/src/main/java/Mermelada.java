@@ -12,7 +12,7 @@ public class Mermelada implements Helado {
 
     @Override
     public String getIngredientes() {
-        return helado.getIngredientes() + ", con Mermelada extra";
+        return helado.getIngredientes() + ", mermelada";
     }
 
 

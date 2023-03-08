@@ -11,8 +11,8 @@ public class Granola implements Helado {
 
 
     @Override
-    public String getDescripcion() {
-        return helado.getDescripcion() + ", con Granola extra";
+    public String getIngredientes() {
+        return helado.getIngredientes() + "Granola";
     }
 
 

@@ -11,8 +11,8 @@ public class Topping implements Helado {
 
 
     @Override
-    public String getDescripcion() {
-        return helado.getDescripcion() + ", con Topping extra";
+    public String getIngredientes() {
+        return helado.getIngredientes() + " y topping adicional";
     }
 
 

@@ -8,8 +8,8 @@ public class Cobertura implements Helado {
 
 
     @Override
-    public String String getIngredientes() {
-        return helado.getIngredientes() + ", con Cobertura extra";
+    public String getIngredientes() {
+        return helado.getIngredientes() + ", incluye las siguientes coberturas: ";
     }
 
 
