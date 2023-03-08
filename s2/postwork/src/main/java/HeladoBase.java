@@ -1,9 +1,9 @@
-public class HeladoSuave implements Helado {
+public class HeladoBase implements Helado {
 
 
   @Override
   public String getIngredientes() {
-    return "Helado Suave";
+    return "Producto: Helado suave";
   }
 
 
